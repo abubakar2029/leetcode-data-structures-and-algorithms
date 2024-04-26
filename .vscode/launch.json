@@ -6,9 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Recursion",
+            "name": "ArmStrong",
             "request": "launch",
-            "mainClass": "Recursion",
+            "mainClass": "ArmStrong",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs",
+            "request": "launch",
+            "mainClass": "VarArgs",
             "projectName": "JAVA_DSA_2a00776e"
         },
         {
