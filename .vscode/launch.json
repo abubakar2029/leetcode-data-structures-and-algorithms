@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
             "name": "ArmStrong",
             "request": "launch",
             "mainClass": "ArmStrong",
