@@ -4,12 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "type": "java",
-            "name": "Arrays",
+            "name": "Current File",
             "request": "launch",
-            "mainClass": "Arrays",
-            "projectName": "JAVA_DSA_2a00776e"
+            "mainClass": "${file}"
         },
         {
             "type": "java",
@@ -20,22 +20,30 @@
         },
         {
             "type": "java",
-            "name": "VarArgs",
+            "name": "ArrayListExample",
             "request": "launch",
-            "mainClass": "VarArgs",
+            "mainClass": "ArrayListExample",
             "projectName": "JAVA_DSA_2a00776e"
         },
         {
             "type": "java",
-            "name": "Current File",
+            "name": "ArraysAndInput",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "ArraysAndInput",
+            "projectName": "JAVA_DSA_2a00776e"
         },
         {
             "type": "java",
             "name": "Fibo",
             "request": "launch",
             "mainClass": "Fibo",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
+            "name": "FunctionOverloading",
+            "request": "launch",
+            "mainClass": "FunctionOverloading",
             "projectName": "JAVA_DSA_2a00776e"
         },
         {
@@ -54,9 +62,37 @@
         },
         {
             "type": "java",
+            "name": "MultiDimension",
+            "request": "launch",
+            "mainClass": "MultiDimension",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
+            "name": "Mutable",
+            "request": "launch",
+            "mainClass": "Mutable",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
             "name": "Primitives",
             "request": "launch",
             "mainClass": "Primitives",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
+            "name": "Recursion",
+            "request": "launch",
+            "mainClass": "Recursion",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
+            "name": "Shadowing",
+            "request": "launch",
+            "mainClass": "Shadowing",
             "projectName": "JAVA_DSA_2a00776e"
         },
         {
@@ -78,6 +114,13 @@
             "name": "TypeCasting",
             "request": "launch",
             "mainClass": "TypeCasting",
+            "projectName": "JAVA_DSA_2a00776e"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs",
+            "request": "launch",
+            "mainClass": "VarArgs",
             "projectName": "JAVA_DSA_2a00776e"
         }
     ]
