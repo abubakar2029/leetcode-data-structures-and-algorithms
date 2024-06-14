@@ -6,13 +6,15 @@
  * Identify for every row => no. of columns there + type of elements there*/
 public class Main {
     public static void main(String[] args) {
-        pattern2(3);
+        pattern2(5);
     }
 
-    /*1
+    /*
+     * 1
      * 12
      * 123
-     * 1234*/
+     * 1234
+     */
     static void pattern1(int n) {
         String output = "";
         for (int row = 0; row < n; row++) {
@@ -26,29 +28,32 @@ public class Main {
         System.out.println(output);
     }
 
-    /*  *
-     *  * *
+    /*
+     * *
+     * * *
      * * * *
-     *  * *
-     *   *   */
+     * * *
+     * *
+     */
     static void pattern2(int n) {
         String output = "";
         for (int row = 0; row < 2 * n; row++) {
             String rowString = "";
-//            adding spaces
+            // adding spaces
             int noOfSpaces;
             int noOfCol;
             if (row < n) {
-                noOfSpaces = n - row -1;
-                noOfCol=row;
+                noOfSpaces = n - row - 1;
+                noOfCol = row;
             } else {
-                noOfSpaces = row - n ;
-                noOfCol=n-(row-n)-1;
+                noOfSpaces = row - n;
+                // noOfCol=n-(row-n)-1;
+                noOfCol = 2 * n - row - 1;
             }
             for (int space = 0; space <= noOfSpaces; space++) {
                 rowString += " ";
             }
-//            adding * in this loop
+            // adding * in this loop
             for (int col = 0; col <= noOfCol; col++) {
                 rowString += "*";
                 rowString += " ";
