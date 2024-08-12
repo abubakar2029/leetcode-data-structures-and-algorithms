@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Code-100-Days.iml" filepath="$PROJECT_DIR$/Code-100-Days.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatternQuestions-BubbleSort-SelectionSort/PatternQuestions-BubbleSort-SelectionSort.iml" filepath="$PROJECT_DIR$/PatternQuestions-BubbleSort-SelectionSort/PatternQuestions-BubbleSort-SelectionSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/Resursion-03(Arrays)/Resursion.iml" filepath="$PROJECT_DIR$/Resursion-03(Arrays)/Resursion.iml" />
     </modules>
   </component>
