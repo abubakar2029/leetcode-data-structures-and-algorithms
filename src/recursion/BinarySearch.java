@@ -1,3 +1,5 @@
+package recursion;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {11, 2, 2, 2, 3};
