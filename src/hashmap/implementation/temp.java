@@ -1,13 +1,13 @@
 package hashmap.implementation;
 
-import java.util.*;
 public class temp {
     public static void main(String[] args) {
-        String a = "a";
+        System.out.println(temp());
+        ;
+    }
 
-        java.util.HashMap m = new HashMap();
-        m.put("Name","Abu");
-        m.put("Name","Abu");
-        System.out.println(m);
+    public static int temp() {
+        int N = 99;
+        return 5 + 3 - N;
     }
 }
