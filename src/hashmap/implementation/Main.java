@@ -9,5 +9,14 @@ public class Main {
         System.out.println(hash1.get("Name"));
         hash1.remove("Name");
 
+//        Map using Linked List
+        Hashmap<String, Integer> hash2 = new Hashmap<>();
+//        if generic Objects are not defined it can cause runtime errors
+        hash2.put("AbuBakar", 10);
+        hash2.put("Ahmed", 20);
+        hash2.put("Ayan", 30);
+
+        System.out.println(hash2.get("Ahmed"));
+        System.out.println(hash2.isEmpty());
     }
 }
