@@ -1,5 +1,6 @@
 package slidingWindow.algorithm;
 
+// in this example returning the maximum sum of a sub array
 public class fixedSizeWindow {
     public int maxSum = 0;
     public int currentSum = 0;
