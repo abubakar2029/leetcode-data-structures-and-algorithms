@@ -13,5 +13,9 @@ public class Main {
 //        Dynamic sized window example
         dynamicWindow window2 = new dynamicWindow(arr, 15);
         System.out.println(window2.getMinLength());
+
+//        alphabet sliding - example 2
+        char[] char_arr = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'};
+        fixedWindowExample2 window3 = new fixedWindowExample2(char_arr);
     }
 }
