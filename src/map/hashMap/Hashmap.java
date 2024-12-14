@@ -1,4 +1,4 @@
-package hashmap.implementation;
+package map.hashMap;
 
 import java.util.LinkedList;
 

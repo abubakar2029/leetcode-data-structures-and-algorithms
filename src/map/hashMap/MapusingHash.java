@@ -1,4 +1,4 @@
-package hashmap.implementation;
+package map.hashMap;
 
 class MapusingHash {
     private Entity[] entities;
