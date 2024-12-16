@@ -1,4 +1,4 @@
-package map.hashMap;
+package hashTable.hashMap;
 
 class MapusingHash {
     private Entity[] entities;

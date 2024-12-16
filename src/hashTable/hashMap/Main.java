@@ -1,4 +1,4 @@
-package map.hashMap;
+package hashTable.hashMap;
 
 
 public class Main {
@@ -10,7 +10,7 @@ public class Main {
         hash1.remove("Name");
 
 //        Map using Linked List
-        Hashmap<String, Integer> hash2 = new Hashmap<>();
+        HashmapImplementation<String, Integer> hash2 = new HashmapImplementation<>();
 //        if generic Objects are not defined it can cause runtime errors
         hash2.put("AbuBakar", 10);
         hash2.put("Ahmed", 20);

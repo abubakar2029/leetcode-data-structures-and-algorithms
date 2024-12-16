@@ -1,4 +1,4 @@
-package map.hashMap;
+package hashTable.hashMap;
 
 public class temp {
     public static void main(String[] args) {

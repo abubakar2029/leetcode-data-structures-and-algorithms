@@ -1,9 +1,9 @@
-package map.hashMap;
+package hashTable.hashMap;
 
 import java.util.LinkedList;
 
 // wort case complexity is O(n)
-public class Hashmap<K, V> {
+public class HashmapImplementation<K, V> {
     private class Node {
         K key;
         V value;
@@ -20,7 +20,7 @@ public class Hashmap<K, V> {
 
     private LinkedList<Node> list[];
 
-    public Hashmap() {
+    public HashmapImplementation() {
         this.N = 6;
         this.n = 0;
         this.list = new LinkedList[N]; // initializing array here
