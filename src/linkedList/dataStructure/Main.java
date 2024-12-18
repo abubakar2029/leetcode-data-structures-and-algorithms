@@ -11,6 +11,11 @@ public class Main {
 
         list.display(); // Output: 5 -> 10 -> 15 -> 20 -> END
         System.out.println("Size: " + list.getSize()); // Size: 4
+
+        list.deleteFirst();
+        list.display(); // Output: 5 -> 10 -> 15 -> 20 -> END
+        list.delete(2);
+        list.display();;
     }
 }
 

@@ -20,21 +20,17 @@ public class SinglyLinkedList_Implementation<E> {
         size++;
     }
 
-    public void insertLast(E value) {
-        if (head == null) {
-            insertAtFirst(value);
-            return;
+        public void insertLast(E value) {
+            if (head == null) {
+                insertAtFirst(value);
+                return;
+            }
+            Node last = new Node(value); //   naya node bnaya
+            Node secondLast = tail; //    aak pointer lia loop ko iterate krwana ka lia
+            secondLast.next = last;
+            tail = last;
+            size++;
         }
-        Node node = new Node(value); //   naya node bnaya
-        Node temp = head; //    aak pointer lia loop ko iterate krwana ka lia
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-//        loop na akhri node dia
-        temp.next = node; // alhri node ko kaha new node ko point kr do
-        tail = node;
-        size++;
-    }
 
     public void insert(E value, int index) {
         Node node = new Node(value);
@@ -60,9 +56,9 @@ public class SinglyLinkedList_Implementation<E> {
 
     public void display() {
         Node temp = head;
-        while (temp.next != null) {
+        while (temp != null) {
 //            temp.next != null, ya galat ho ga bcz last node ka value to ho ga lakin node.next null ho ga os lia loop sa bahir aa jae ga, solution ma os ka value print krwao or khud hi temp=temp.next(null) ho jae ga
-            System.out.println(temp.value + " -> ");
+            System.out.print(temp.value + " -> ");
             temp = temp.next;
         }
         System.out.println("END");
@@ -70,6 +66,54 @@ public class SinglyLinkedList_Implementation<E> {
 
     public int getSize() {
         return size;
+    }
+
+    public Node get(int index) {
+//        edge check lgaya
+        if (index < 0 || index >= size) throw new RuntimeException();
+
+        Node temp = head; //    yahan head ma first index, first node ajae ga, os lia loop index tk nhi chla ga
+        for (int i = 0; i < index; i++) {
+            temp = temp.next;
+        }
+        return temp; // loop khatam hoa Node return kr do
+    }
+
+    public E deleteFirst() {
+        Node temp = head; //    yahan pehla node agaya
+        head = temp.next; //    pehla node 2nd ko point kr raha ha, os lia head ab second ko bna dia
+        if (head == null) tail = null; // dekho agar aak hi element tha or head null ho gaya to tail ko bhi null kr dia
+        size--;
+        return temp.value;
+    }
+
+    public E deleteLast() {
+        if (size == 0) throw new RuntimeException("List is empty"); // Handle empty list
+        if (size == 1) { // Edge case: only one node
+            return deleteFirst();
+        }
+        Node secondLast = get(size - 2);
+        Node last = tail; // Save the last node's value
+        tail = secondLast;
+        secondLast.next = null;
+        size--;
+        return last.value;
+    }
+
+
+    public E delete(int index) {
+        //        edge check lgaya
+        if (index < 0 || index >= size) throw new RuntimeException();
+        if (index == 0) {
+            return deleteFirst(); // Handle deletion of the first node
+        }
+
+        Node beforeIndex = get(index - 1); // index(required) sa pehla ka node lia jo osa point kr raha ha
+        Node requiredNode = beforeIndex.next; //    ya wo node mila jisa delete kreang
+        Node nextIndex = requiredNode.next; //   delete hona wala node jisa point kr raha ha wo object(node)
+        beforeIndex.next = nextIndex; //    before ko kaha ab pehla wala ko rehna do os sa next ko point kr do, or ya hogaya
+        size--;
+        return requiredNode.value;
     }
 
     private class Node {
