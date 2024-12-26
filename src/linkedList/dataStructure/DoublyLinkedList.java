@@ -44,12 +44,10 @@ public class DoublyLinkedList<E> {
         }
 
 //        0 sa index tk scan kra or node get kra
-        Node temp = head;
-        for (int i = 0; i < index; i++) {
-            temp = temp.next;
-        }
+        Node temp = get(index);
+
 //        required node mil gaya
-        node.next = temp.next;
+        node.next = temp;
         node.prev = temp.prev;
         temp.prev.next = node;
         temp.next.prev = node;
@@ -63,14 +61,20 @@ public class DoublyLinkedList<E> {
         }
 
 //        0 sa index tk loop chalaya
-        Node temp = head;
-        for (int i = 0; i < index; i++) {
-            temp = temp.next;
-        }
+        Node temp = get(index);
+
 //        required node mila
         temp.prev.next = temp.next;
         temp.next.prev = temp.prev;
         size--;
+    }
+
+    private Node get(int index) {
+        Node temp = head;
+        for (int i = 0; i < index; i++) {
+            temp = temp.next;
+        }
+        return temp;
     }
 
     private class Node {
