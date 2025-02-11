@@ -25,21 +25,19 @@ class Solution1 {
 class Solution2 {
     static public void rotate(int[] nums, int k) {
         int n = nums.length;
-//        int[] temp = new int[n];
+        k %= n;
         int[] temp = nums.clone();
-
-//                pehla loop 'k' sa 'n' tk
+        // pehla loop 'k' sa 'n' tk
         for (int i = k; i < n; i++) {
             nums[i] = temp[i - k];
         }
         System.out.println(Arrays.toString(nums));
-//    dosra loop '0' sa 'k' tk, bcz k include ho gaya ha already
+        // dosra loop '0' sa 'k' tk, bcz k include ho gaya ha already
         for (int i = 0; i < k; i++) {
             nums[i] = temp[n - k + i];
         }
         System.out.println(Arrays.toString(nums));
     }
-
 
 }
 
