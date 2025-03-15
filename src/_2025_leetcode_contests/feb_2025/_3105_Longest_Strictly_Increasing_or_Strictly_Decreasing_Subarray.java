@@ -1,6 +1,4 @@
-package feburary_25_challenge;
-
-import java.util.*;
+package _2025_leetcode_contests.feb_2025;
 
 public class _3105_Longest_Strictly_Increasing_or_Strictly_Decreasing_Subarray {
     public static void main(String[] args) {
