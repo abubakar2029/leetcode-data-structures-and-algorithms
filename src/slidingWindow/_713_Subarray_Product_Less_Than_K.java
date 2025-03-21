@@ -1,5 +1,8 @@
 package slidingWindow;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class _713_Subarray_Product_Less_Than_K {
     public static void main(String[] args) {
 //        System.out.println(Solution1.numSubarrayProductLessThanK(new int[]{20,
@@ -41,6 +44,26 @@ public class _713_Subarray_Product_Less_Than_K {
                 }
                 count += end - start + 1;
             }
+            return count;
+        }
+    }
+
+    class Solution3 {
+        public int numSubarrayProductLessThanK(int[] nums, int k) {
+            int count = 0;
+            int product = 1;
+            Queue<Integer> que = new LinkedList<>();
+            int n = nums.length;
+            for (int i = 0; i < n; i++) {
+                que.add(nums[i]);
+                product = product * nums[i];
+                while (product >= k && !que.isEmpty()) {
+                    product = product / que.poll();
+                }
+                count = count + que.size();
+            }
+
+
             return count;
         }
     }
