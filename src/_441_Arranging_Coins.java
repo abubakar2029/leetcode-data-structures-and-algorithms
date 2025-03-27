@@ -6,11 +6,11 @@ public class _441_Arranging_Coins {
     static class Solution {
         static public int arrangeCoins(int n) {
             int i = 1; // which row we are on
-            while (n > 0) { // checking to see if we have used all our coins
+            while (n >= i) { // checking to see if we have used all our coins
                 n = n - i; // adding coins to our row
                 i++; // increasing our row
             }
-            return i - 1; // we return our current row minus one because the last row is our completed row
+            return i - 1;
         }
     }
 
