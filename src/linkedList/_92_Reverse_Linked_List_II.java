@@ -20,7 +20,49 @@ public class _92_Reverse_Linked_List_II {
             this.next = next;
         }
 
-        class Solution {
+        //        all test cases passed
+        class Solution2 {
+            public ListNode reverseBetween(ListNode head, int left, int right) {
+                ListNode newStart = new ListNode();
+                ListNode newEnd = new ListNode();
+                ListNode pointer = head;
+
+                Stack<ListNode> stack = new Stack();
+
+                ListNode dummy = new ListNode(0);
+                dummy.next = head;
+                newStart = dummy;
+
+                // getting the node from where to start
+                int i = 1;
+                while (i != left) {
+                    newStart = pointer;
+                    pointer = pointer.next;
+                    i++;
+                }
+
+                // adding required elements in the stack - from the starting position
+                while (i <= right) {
+                    stack.push(pointer);
+                    pointer = pointer.next;
+                    newEnd = pointer;
+                    i++;
+                }
+
+                // reversing the list
+
+                while (!stack.isEmpty()) {
+                    newStart.next = stack.pop();
+                    newStart = newStart.next;
+                }
+                newStart.next = newEnd;
+
+                return dummy.next;
+            }
+        }
+
+        //        passed 36 test cases
+        class Solution1 {
             public ListNode reverseBetween(ListNode head, int left, int right) {
                 ListNode newStart = new ListNode();
                 ListNode newEnd = new ListNode();
@@ -56,3 +98,4 @@ public class _92_Reverse_Linked_List_II {
             }
         }
     }
+}
