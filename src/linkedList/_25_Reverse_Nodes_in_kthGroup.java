@@ -19,6 +19,42 @@ public class _25_Reverse_Nodes_in_kthGroup {
         }
     }
 
+    // correct solution
+    class Solution {
+        public ListNode reverseKGroup(ListNode head, int k) {
+            if (head == null || k == 1)
+                return head;
+
+            // checking if k-nodes available
+            int count = 1;
+            ListNode dummy = head;
+            while (count <= k) {
+                if (dummy == null)
+                    return head;
+                dummy = dummy.next;
+                count++;
+            }
+
+            // reversing the rest of the list
+            ListNode previous = reverseKGroup(dummy, k);
+
+            // reversing the kth group
+            count = 1;
+            dummy = head;
+            while (count <= k) {
+                ListNode next = dummy.next;
+                dummy.next = previous;
+                previous = dummy;
+                dummy = next;
+                count++;
+            }
+
+            head = previous;
+            return head;
+        }
+    }
+
+    //    Incorrect Solution
     class Solution1 {
         public ListNode reverseKGroup(ListNode head, int k) {
             if (head == null || k == 1)
