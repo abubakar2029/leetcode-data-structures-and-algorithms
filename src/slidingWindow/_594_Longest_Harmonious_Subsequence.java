@@ -4,11 +4,12 @@ import java.util.Arrays;
 
 public class _594_Longest_Harmonious_Subsequence {
     public static void main(String[] args) {
-        System.out.println(Solution.findLHS(new int[]{1, 2, 3, 4}));
+        System.out.println(Solution1.findLHS(new int[]{1, 2, 3, 4}));
     }
 
 
-    static class Solution {
+
+    static class Solution1 {
         static public int findLHS(int[] nums) {
             Arrays.sort(nums);
             int result = 0;
