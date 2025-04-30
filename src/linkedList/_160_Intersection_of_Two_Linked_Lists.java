@@ -17,6 +17,21 @@ public class _160_Intersection_of_Two_Linked_Lists {
 
     }
 
+    // 2 pointers approach with constant space
+    public class Solution2 {
+        public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+            ListNode ptrA = headA;
+            ListNode ptrB = headB;
+
+            while (ptrA != ptrB) {
+                ptrA = ptrA != null ? ptrA.next : headB;
+                ptrB = ptrB != null ? ptrB.next : headA;
+            }
+
+            return ptrA;
+        }
+    }
+
 
     //  Naive approach using HashSet
     public class Solution {
