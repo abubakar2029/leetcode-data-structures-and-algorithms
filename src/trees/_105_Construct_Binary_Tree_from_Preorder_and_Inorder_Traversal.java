@@ -24,6 +24,16 @@ public class _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
         }
     }
 
+    public static void main(String[] args) {
+        _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal parent = new _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal();
+        Solution solution = parent.new Solution();
+
+        int[] preorder = new int[]{3, 9, 20, 15, 7};
+        int[] inorder = new int[]{9, 3, 15, 20, 7};
+
+        TreeNode root = solution.buildTree(preorder, inorder);
+    }
+
     class Solution {
         int preIndex = 0;
         Map<Integer, Integer> inorderMap = new HashMap<>();
@@ -35,7 +45,7 @@ public class _105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
                 inorderMap.put(inorder[i], i);
             }
 
-            return build(preorder, 0, inorder.length);
+            return build(preorder, 0, inorder.length-1);
         }
 
         public TreeNode build(int[] preorder, int left, int right) {
