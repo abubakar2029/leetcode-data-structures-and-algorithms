@@ -1,4 +1,6 @@
-class Solution {
+import java.util.*;
+
+class _496_Next_Greater_Element_I {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int n1 = nums1.length;
         int n2 = nums2.length;

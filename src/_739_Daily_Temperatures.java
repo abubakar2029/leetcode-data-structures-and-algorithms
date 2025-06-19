@@ -1,4 +1,7 @@
-class Solution {
+import java.util.*;
+
+
+class _739_Daily_Temperatures {
     public int[] dailyTemperatures(int[] temperatures) {
         int n = temperatures.length;
         int[] answer = new int[n];
