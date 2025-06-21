@@ -1,4 +1,4 @@
-package trees.binaryTrees;
+package trees.binaryTrees_code;
 
 public class TreeBuilding {
 

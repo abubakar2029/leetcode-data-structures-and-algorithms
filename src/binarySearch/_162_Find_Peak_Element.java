@@ -23,7 +23,7 @@ public class _162_Find_Peak_Element {
                 if (nums[mid] > leftNeighbour && nums[mid] > rightNeighbour)
                     return mid;
 
-                else if (nums[mid+1] >= nums[mid])
+                else if (nums[mid + 1] >= nums[mid])
                     left = mid + 1;
                 else
                     right = mid - 1;

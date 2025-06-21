@@ -1,4 +1,4 @@
-package trees.binaryTrees;
+package trees.binaryTrees_code;
 
 public class InorderTraversing {
     int[] sequence = {1, 2, -1, -1, 3, 4, -1, -1, 5};
