@@ -3,15 +3,6 @@ package trees;
 import com.sun.source.tree.Tree;
 
 public class _104_Maximum_Depth {
-    class TreeNode {
-        TreeNode left;
-        TreeNode right;
-        int val;
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
 
     class Solution {
         public int maxDepth(TreeNode root) {
