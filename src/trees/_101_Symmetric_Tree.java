@@ -1,5 +1,7 @@
 package trees;
 
+import java.util.*;
+
 public class _101_Symmetric_Tree {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
@@ -63,4 +65,31 @@ public class _101_Symmetric_Tree {
             return helper(n1.left, n2.right) && helper(n1.right, n2.left);
         }
     }
+
+    //    iterative approach
+    class Solution3 {
+        public boolean isSymmetric(TreeNode root) {
+            if (root == null) return true;
+
+            Deque<TreeNode> deque = new LinkedList<>();
+            deque.addLast(root.left);
+            deque.addLast(root.right);
+
+            while (!deque.isEmpty()) {
+                TreeNode n1 = deque.pollFirst();
+                TreeNode n2 = deque.pollFirst();
+
+                if (n1 == null && n2 == null) continue;
+                if (n1 == null || n2 == null || n1.val != n2.val) return false;
+
+                deque.addLast(n1.left);
+                deque.addLast(n2.right);
+                deque.addLast(n1.right);
+                deque.addLast(n2.left);
+            }
+
+            return true;
+        }
+    }
+
 }
