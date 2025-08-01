@@ -1,4 +1,3 @@
-package trees;
 
 public class _222_Count_Complete_Tree_Nodes {
 

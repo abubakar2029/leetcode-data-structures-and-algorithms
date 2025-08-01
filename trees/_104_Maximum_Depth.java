@@ -1,6 +1,3 @@
-package trees;
-
-import com.sun.source.tree.Tree;
 
 public class _104_Maximum_Depth {
 

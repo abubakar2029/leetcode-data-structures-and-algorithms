@@ -1,5 +1,3 @@
-package trees;
-
 public class _100_Same_Tree {
 
 
