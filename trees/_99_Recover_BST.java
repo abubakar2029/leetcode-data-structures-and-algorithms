@@ -42,7 +42,7 @@ public class _99_Recover_BST {
     static class Solution {
         TreeNode first = null;
         TreeNode second = null;
-        TreeNode prev = new TreeNode(Integer.MIN_VALUE);
+        TreeNode prev = null;
 
         public void recoverTree(TreeNode root) {
             inorder(root);
