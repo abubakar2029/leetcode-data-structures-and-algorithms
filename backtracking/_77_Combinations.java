@@ -19,8 +19,8 @@ public class _77_Combinations {
 
         static public void helper(int n, int k, ArrayList<Integer> current, int i) {
             if (current.size() == k) {
-                Integer[] list = current.toArray(new Integer[0]);
-
+//                Integer[] list = current.toArray(new Integer[0]);
+                ans.add(new ArrayList<>(current)); // ✅ copy before adding
                 ans.add(current);
                 return;
             }
