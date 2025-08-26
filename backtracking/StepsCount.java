@@ -1,4 +1,4 @@
-package backtracking.mazeProblems;
+package backtracking;
 
 public class StepsCount {
     public static void main(String[] args) {

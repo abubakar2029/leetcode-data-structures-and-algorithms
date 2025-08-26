@@ -48,7 +48,7 @@ public class _39_Combination_Sum {
             // same element call
             allCombinations(arr, start, target - arr[start], current);
             current.remove(current.size() - 1);
-            // excluding the element
+            // excluding the new element
             allCombinations(arr, start + 1, target , current);
         }
     }
