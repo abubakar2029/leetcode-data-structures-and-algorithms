@@ -1,7 +1,7 @@
 class Solution:
-    my_set = set()
 
     def combinationSum2(self, candidates, target: int):
+        self.my_set = set()
         candidates.sort()
         self.helper(0, target, [], candidates)
         return list(self.my_set)
