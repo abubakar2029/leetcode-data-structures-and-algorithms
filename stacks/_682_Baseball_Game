@@ -1,0 +1,19 @@
+class Solution:
+    def calPoints(self, operations: List[str]) -> int:
+        ans = 0
+        score_list = []
+
+        for i in range(len(operations)):
+            if operations[i]=='+':
+                score_list.append(score_list[-1]+score_list[-2])
+            elif operations[i]=='D':
+                score_list.append(2*score_list[-1])
+            elif operations[i]=='C':
+                score_list.pop()
+            else:
+                score_list.append(int(operations[i]))
+
+        for i in range(len(score_list)):
+            ans += score_list[i]
+
+        return ans
