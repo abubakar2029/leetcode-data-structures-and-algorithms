@@ -12,24 +12,24 @@
 <!-- LEETCODE-AGENT:START -->
 | 📊Topic | Problems Solved |
 |-------|----------------|
-| Arrays | 18 |
-| Trees | 17 |
-| Sliding Window | 14 |
-| Linked List | 11 |
+| General/Uncategorized | 30 |
+| Arrays | 20 |
+| Trees | 18 |
+| Sliding Window | 16 |
+| Linked List | 12 |
 | Two Pointers | 11 |
+| Stacks | 10 |
 | Recursion | 8 |
-| Stacks | 7 |
-| Contests/Weekly/Custom | 7 |
-| Other/Miscellaneous | 6 |
-| Strings | 5 |
-| Backtracking | 5 |
+| Backtracking | 6 |
 | Binary Search | 5 |
-| Set | 4 |
+| Set | 5 |
+| Queues | 4 |
+| Strings | 3 |
 | Binary Search Tree | 3 |
-| Queues | 3 |
+| Weekly Contest | 3 |
 | Dynamic Programming | 2 |
+| Prefix Sum | 2 |
 | Hash Table | 1 |
-| Prefix Sum | 1 |
 | Probability | 1 |
 
 <!-- LEETCODE-AGENT:END -->
