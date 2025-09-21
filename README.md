@@ -34,25 +34,27 @@ Ideal for professors, reviewers, and software engineers interested in Java-based
 
 
 <!-- LEETCODE-AGENT:START -->
-{
-  "Arrays": 15,
-  "Strings": 6,
-  "Dynamic Programming": 2,
-  "Backtracking": 5,
-  "Binary Search": 5,
-  "Binary Search Tree": 3,
-  "Hash Table": 1,
-  "Linked List": 11,
-  "Prefix Sum": 1,
-  "Probability": 1,
-  "Queues": 1,
-  "Recursion": 7,
-  "Set": 4,
-  "Sliding Window": 13,
-  "Stacks": 7,
-  "Trees": 16,
-  "Two Pointers": 11,
-  "Contests/Weekly": 7,
-  "Miscellaneous/Uncategorized": 10
-}
+| 📊Topic | Problems Solved |
+|-------|----------------|
+| Arrays | 18 |
+| Trees | 17 |
+| Sliding Window | 15 |
+| Linked List | 11 |
+| Two Pointers | 11 |
+| Recursion | 8 |
+| Stacks | 8 |
+| Strings | 6 |
+| Backtracking | 6 |
+| Binary Search | 5 |
+| Set | 4 |
+| Binary Search Tree | 3 |
+| Queues | 3 |
+| Weekly Contest | 3 |
+| Miscellaneous / Others (Main, Temp, etc.) | 3 |
+| Dynamic Programming | 2 |
+| 2D Matrix | 2 |
+| Hash Table | 1 |
+| Prefix Sum | 1 |
+| Probability | 1 |
+
 <!-- LEETCODE-AGENT:END -->
