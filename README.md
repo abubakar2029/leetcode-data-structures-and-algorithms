@@ -31,3 +31,28 @@ Ideal for professors, reviewers, and software engineers interested in Java-based
 | [Linked Lists](./linkedlists) | 15+ |
 | [Dynamic Programming](./dynamicprogramming) | 30+ |
 | [Sliding Window](./slidingwindow) | *Coming Soon* |
+
+
+<!-- LEETCODE-AGENT:START -->
+{
+  "Arrays": 15,
+  "Strings": 6,
+  "Dynamic Programming": 2,
+  "Backtracking": 5,
+  "Binary Search": 5,
+  "Binary Search Tree": 3,
+  "Hash Table": 1,
+  "Linked List": 11,
+  "Prefix Sum": 1,
+  "Probability": 1,
+  "Queues": 1,
+  "Recursion": 7,
+  "Set": 4,
+  "Sliding Window": 13,
+  "Stacks": 7,
+  "Trees": 16,
+  "Two Pointers": 11,
+  "Contests/Weekly": 7,
+  "Miscellaneous/Uncategorized": 10
+}
+<!-- LEETCODE-AGENT:END -->
