@@ -1,0 +1,13 @@
+class Solution:
+    def isUnivalTree(self, root: Optional[TreeNode]) -> bool:
+        def dfs(node):
+            if not node:
+                return True
+
+            if (node.left and node.left.val != node.val) or (
+                node.right and node.right.val != node.val
+            ):
+                return False
+            return dfs(node.left) and dfs(node.right)
+
+        return dfs(root)
