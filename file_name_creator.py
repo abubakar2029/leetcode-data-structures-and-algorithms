@@ -1,4 +1,6 @@
 # filename_generator.py
+import pyperclip
+
 
 def generate_filename(problem_name: str) -> str:
     # Remove leading/trailing spaces
@@ -22,6 +24,7 @@ def generate_filename(problem_name: str) -> str:
     else:
         filename = f"{title_snake}.py"
     
+    pyperclip.copy(filename)
     return filename
 
 
