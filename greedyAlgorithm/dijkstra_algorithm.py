@@ -1,34 +1,25 @@
-# Graph Definition
-graph = {
-    'A': [('B', 1), ('D', 4)],
-    'B': [('C', 2), ('D', 5)],
-    'D': [('C', 1)],
-    'C': []
-}
-
-
-# Algorithm 
 import heapq
+graph = {"a": {"b": 1, "c": 4}, "b": {"c": 1, "d": 6}, "c": {"d": 3}, "d": {}}
+
 
 def dijkstra(graph, start):
-    min_heap = [(0, start)]  # (distance, node)
-    distances = {node: float('inf') for node in graph}
+    distances = {}
+    for node in graph:
+        distances[node] = float('inf')
     distances[start] = 0
 
-    while min_heap:
-        curr_dist, curr_node = heapq.heappop(min_heap)
+    minHeap = [(0, start)]
 
-        if curr_dist > distances[curr_node]:
-            continue
+    while minHeap:
+        weight, node = heapq.heappop(minHeap)
+        neighbors = graph[node]
+        for n_node, n_weight in neighbors.items():
+            # Edge Relaxation
+            if (distances[n_node] > weight+n_weight):
+                distances[n_node] = weight+n_weight
+                heapq.heappush(minHeap, ((weight+n_weight), n_node))
 
-        for neighbor, weight in graph[curr_node]:
-            new_dist = curr_dist + weight
+    print(distances)
 
-            if new_dist < distances[neighbor]:
-                distances[neighbor] = new_dist
-                heapq.heappush(min_heap, (new_dist, neighbor))
 
-    return distances
-
-result = dijkstra(graph, 'A')
-print(result)
+dijkstra(graph, "a")
