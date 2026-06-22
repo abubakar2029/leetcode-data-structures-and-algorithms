@@ -1,0 +1,469 @@
+[33mcommit 3e91b363e5666e915c3acaa45fe734a97f64c1ba[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri May 8 11:53:05 2026 +0500
+
+    Day 144 - LeetCode 143 Reorder List
+
+[33mcommit a6850ba4fb7a0912f1a86cb04a5c2cda5b20e467[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue May 5 14:02:37 2026 +0500
+
+    Day 143 - LeetCode 112 with c++ and revised pointers
+
+[33mcommit 81b704097b244ff7ec0b76d1de6f8acdae1730d6[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Dec 29 20:54:20 2025 +0500
+
+    Day 142 - Understand and solved Arithmetic Subarray Question
+
+[33mcommit 27f89393c45851fe772ba8281cc90a899f3d275f[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Dec 28 18:00:08 2025 +0500
+
+    Understood and solved a dynamic programming question 413
+
+[33mcommit 943a8718cee0fb2d4b054b041021dcae824cc6f6[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri Dec 26 09:23:14 2025 +0500
+
+    Day 140 - Solved replace pattern question
+
+[33mcommit 85436cdb46c53d3dc952b4c917b05eab0afe1d3c[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Dec 24 21:21:47 2025 +0500
+
+    Day 139 - Understand and solved isomorphic pattern problems
+
+[33mcommit c90b16797cd5cb5c9b7e5ee48f4b09e07fcee08e[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Dec 20 22:53:09 2025 +0500
+
+    Day 138 - Solved Power of 2 problem
+
+[33mcommit 278488fe1f4fc7ca4399b7f119c832ad4bb2f027[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri Dec 19 22:02:04 2025 +0500
+
+    Day 137 - Revised Dijkstra algorithm
+
+[33mcommit c715ff315c2d25b18442ce507a68013f54c44fb5[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Thu Dec 18 15:48:18 2025 +0500
+
+    Day 136 - Mid Problem solution passed 1157 test cases in first submission
+
+[33mcommit 4f1fafe2219bdfdeeb21d90ee817017fbe6ec3bd[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Dec 16 13:39:38 2025 +0500
+
+    Day 135 - Solved Phone Letter Combination with recursion in java
+
+[33mcommit 981a8b5d81090f40fd89c424aa8f92e340752d39[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Dec 15 23:04:35 2025 +0500
+
+    Day 134 - Solved Phone Letter Combination Problem
+
+[33mcommit 0ab95857d925e2a96ca22e809edd885c5dd5b344[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Dec 14 15:48:51 2025 +0500
+
+    Day 133 - Solved 2 priority queues questions
+
+[33mcommit 4379daeb088e91bcc58e6233f616cc633ec5207c[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Dec 13 18:46:51 2025 +0500
+
+    Day 132 - Learned Dijkstra's Algorithm that is one of the greedy algorithms
+
+[33mcommit ac5ba295c4b831ce3065af64a8dccd01711c2b6e[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Thu Dec 11 19:39:20 2025 +0500
+
+    Day 131 - Solved Reverse Integer 07
+
+[33mcommit 88edf79e1968e56b558cf7d93e778a9cafdd0218[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Dec 10 14:43:11 2025 +0500
+
+    Day 130 - Solved add binary leetcode
+
+[33mcommit 732d0c4fc549c5adc28cb4712931a912edfea172[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Dec 8 10:05:55 2025 +0500
+
+    Day 129 - Understand integer to english problem and its solution
+
+[33mcommit 328c44cadcbd6417f7d71e2f731da2dda6ac10ee[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Dec 6 20:45:35 2025 +0500
+
+    Day 128 - Solved Ransom Note LeetCode
+
+[33mcommit 094f78af7257a4405a9ae198fa9cff871b2add5c[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Nov 30 08:54:18 2025 +0500
+
+    Day 127 - Solved two LeetCode (linked list + reverse letters)
+
+[33mcommit 048f997d0f3fbd88cfc05e96897d65a2b51cbd6b[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Nov 8 21:00:41 2025 +0500
+
+    Day 126 - Learned and practised a problem on greedy approach
+
+[33mcommit 703bd030a624c3a17dd80b722d88afcd36c59ba5[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Nov 5 21:06:22 2025 +0500
+
+    Day 125 - Learned and solved power with binary exponentiation
+
+[33mcommit 5a969659f19320039dfe605e10dd4935668ccaee[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Nov 2 21:15:16 2025 +0500
+
+    Day 124 - Solved reverse words in a string
+
+[33mcommit 205b7946ef553d063ac25a61ef633650a7ef50a2[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Nov 2 00:12:16 2025 +0500
+
+    Day 123 - Solved 2 pointers problem on LeetCode
+
+[33mcommit 0858c207e6504dc7f7d4701eaa6f7205e0d13574[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Oct 27 10:26:44 2025 +0500
+
+    Day 122 - Solved 2x questions on Matrix Search
+
+[33mcommit 8a7a0d467992af4de6afc21de05bb7da0e793ab9[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Oct 22 20:58:07 2025 +0500
+
+    Day 121 - Solved 2x problems on diagonal traversal
+
+[33mcommit 57f8ed5295a79e7a988ae5d3496d91c1e3e52171[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Oct 21 22:41:25 2025 +0500
+
+    Day 120 - Spent 50 minutes on trying to solve Diagonal traversal problem
+
+[33mcommit ecf2eaefb4fbb1d372631e28f49c93e2efa53e19[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Oct 20 12:58:24 2025 +0500
+
+    Day 119 - Solved Spiral matrix ii
+
+[33mcommit eadf4fc475c9a9a9e79a6baf21f8fe53adc67efe[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Oct 19 12:39:41 2025 +0500
+
+    Day 118 - Solved spiral matrix
+
+[33mcommit 66b5afd037b0190ab36a40884b27c6b7cc9138f1[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Oct 6 19:11:21 2025 +0500
+
+    Day 117 - Solved root to leaf sum of numbers question
+
+[33mcommit 9653515c5208f0ad8fb2c4f29a1aa012f556934a[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Oct 5 23:43:25 2025 +0500
+
+    Day 116 - Solved inorder traversal through stacks and morris algorithm
+
+[33mcommit 4f435bd146741789f9590322f624986e0e9dce96[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Sep 29 20:32:57 2025 +0500
+
+    Day 115 - Solved question of HashTable
+
+[33mcommit 7e48278c950db5e1438dff2af37ba67926e989b2[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Sep 28 09:48:46 2025 +0500
+
+    Day 114 - Solved Max width of BT and find univalued BT Questions
+
+[33mcommit 97ff6abeaca9fd34dc9d667afbd6d0d62ba77584[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Sep 27 23:14:32 2025 +0500
+
+    Day 113 - Solved power questions
+
+[33mcommit 46d702cfd1dc56cb6e355b627abb08e6d2eeef47[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri Sep 26 08:46:29 2025 +0500
+
+    Day 112 - Binary Tree Pruning and average of levels (solved 2 questions)
+
+[33mcommit aa2cc33bb1b62b9e708d577d2d1a7a1fc17233b7[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Thu Sep 25 22:24:45 2025 +0500
+
+    Day 111 - Level Order Traversal II solved
+
+[33mcommit 604ab431a93496825270c63c7808901a89e459a6[m
+Merge: a34895e b4565dd
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Sep 24 21:28:00 2025 +0500
+
+    Merge branch 'main' of https://github.com/abubakar2029/leetcode-data-structures-and-algorithms
+
+[33mcommit a34895efcbd902d2f605b0f93bd7f888e4b5733b[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Sep 24 21:27:39 2025 +0500
+
+    Day 110 - Formed Binary tree from inorder and postorder traversal
+
+[33mcommit 314bb5b5f7629a419d0d353a3def08cf03fa764b[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Sep 22 20:10:35 2025 +0500
+
+    Day 109 - Solved linked list binar to integer leetcode
+
+[33mcommit b4565dd26d30068a3aa6e59c7309f348f9bd475e[m
+Author: Muhammad Abu Bakar <128064938+abubakar2029@users.noreply.github.com>
+Date:   Sun Sep 21 22:10:09 2025 +0500
+
+    📊 Update LeetCode progress
+
+[33mcommit ccddf7801a9de8458fbbeb76cd6ccca7553ce011[m
+Author: Muhammad Abu Bakar <128064938+abubakar2029@users.noreply.github.com>
+Date:   Sun Sep 21 21:52:30 2025 +0500
+
+    📊 Update LeetCode progress
+
+[33mcommit aaef906b211444d5b02cf6fc64df2110f3aab975[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Sep 21 21:52:01 2025 +0500
+
+    Testing LeetCode agent and updating readme file
+
+[33mcommit a7c81f3236071b076c63a20b2e45be2832a22dd9[m
+Merge: c174597 ce3280b
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Sep 21 21:51:29 2025 +0500
+
+    Merge branch 'main' of https://github.com/abubakar2029/leetcode-data-structures-and-algorithms
+
+[33mcommit c17459764ce7357bf4a5e55b8990d633796451e7[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Sep 21 21:50:51 2025 +0500
+
+    Updated readme file
+
+[33mcommit ce3280b61b5bc58d3bdab97366c985e8d757894f[m
+Author: Muhammad Abu Bakar <128064938+abubakar2029@users.noreply.github.com>
+Date:   Sun Sep 21 21:48:57 2025 +0500
+
+    📊 Update LeetCode progress
+
+[33mcommit 0ef81a2c8fec30be38508620bfa838317f0cba7f[m
+Author: Muhammad Abu Bakar <128064938+abubakar2029@users.noreply.github.com>
+Date:   Sun Sep 21 21:44:45 2025 +0500
+
+    📊 Update LeetCode progress
+
+[33mcommit ab5cc57ae5aca669918c4d8251f030b9e5e9d233[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Sep 20 09:28:32 2025 +0500
+
+    Day 108 - Solved range sum of tree and remove duplicates leetcode
+
+[33mcommit 32d3c0dad8b6053e0e09d2d09d04ac0f831ea45d[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri Sep 19 09:54:20 2025 +0500
+
+    Day 107 - LeetCode 2197 by stack
+
+[33mcommit a28aee178443011a92d9641654b2bd7abdd0b977[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Sep 16 22:47:54 2025 +0500
+
+    Day 106 - Solved LeetCode 682 and 1475 by using the stack
+
+[33mcommit c17a57af779cd0496dea915d5a1581ffc268d063[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Sep 15 17:53:30 2025 +0500
+
+    Day 105 - Solved Simplify path through stacks
+
+[33mcommit 9875155dd37b7d21d0bd32539923898fe63aea4f[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Sep 14 08:50:38 2025 +0500
+
+    Day 104 - Stack increment LeetCode solved by ArrayList
+
+[33mcommit 91a5ad0a3715ae908576dcd7c29c6fb5b44cd315[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Sep 13 23:40:21 2025 +0500
+
+    Day 103 - Solved leetcode 897
+
+[33mcommit a37cbdb9019f40e87c0b1a39f29d6415d0517a21[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri Sep 12 15:47:58 2025 +0500
+
+    Day 102 - Solved browser_history_leetcode with stacks
+
+[33mcommit 37ff1334f7f4204ffc3fb32f63d4d30dd2040aa5[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Thu Sep 11 17:08:40 2025 +0500
+
+    LeetCode 32 - applied naive approach, passed 51 testcases
+
+[33mcommit 95289be2975a493c51176b5dfd9d5b829fcd8199[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Sep 10 21:29:02 2025 +0500
+
+    Day 100 - Solved leetcode 155 with 2nd approach
+
+[33mcommit 7ded587beb4a6ef3fa2717d082cd46fff6a59836[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Sep 9 23:24:35 2025 +0500
+
+    Day 99 - Solved leetcode 155
+
+[33mcommit 6f0c00283fc1eba3c475529f2b8d84bd1e8bd4de[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Sep 8 23:00:47 2025 +0500
+
+    Day 98 - Solved binary tree postorder traversal through recursion
+
+[33mcommit cc8ea7bfe876a183764b6833cf6b0888a5a6268f[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Sep 7 20:41:32 2025 +0500
+
+    Day 97 - LeetCode 224, passed 39 testcases but still not submitted
+
+[33mcommit 6b1ceb59bd6e7d7a6c7d86ef6697853288555f68[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Sep 6 17:09:48 2025 +0500
+
+    Day 96 - LeetCode 225 submitted, understood implementatin of stacks and queues
+
+[33mcommit c0a87c034872abb237b4d5fab090743342f96dd3[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri Sep 5 22:48:34 2025 +0500
+
+    Day 95 - LeetCode 225 16 test cases passed but not submitted
+
+[33mcommit 647e91f9329d93e34ba35b016a6c79cd29d1e583[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Sep 2 22:34:45 2025 +0500
+
+    Day 94 - Implemented queues using stacks
+
+[33mcommit 662880c0538d80bbc8bf5a4da5255a09aaab5451[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Sep 1 22:47:36 2025 +0500
+
+    Day 93 - Solved LeetCode 78 by backtracking approach
+
+[33mcommit 299f4886d99be3bb58837ff3154d8499d85fdbb3[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Aug 31 21:59:18 2025 +0500
+
+    Day 92 - Removed bug in Combination Sum, the result was a class variable causing problem
+
+[33mcommit 45d821343e3b32e31921b70527e3b6dcf43a5a3f[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Aug 30 22:52:45 2025 +0500
+
+    Day 91 - Combination sum II, solved with backtracking
+
+[33mcommit f2b31b15170d1d43bd2acb11c9a98acee70f6707[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Aug 27 20:44:53 2025 +0500
+
+    Day 90 - Combination sum II, backtracking passed 1 test case but wrong answer on submission
+
+[33mcommit ab93113746b7ae0b5c5cfbd8c36dace952902597[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Aug 26 23:28:22 2025 +0500
+
+    Day 89 - LeetCode 77 bug removed
+
+[33mcommit 7a50077554c24db429a8e69d80946ecd00202b52[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Aug 26 23:27:51 2025 +0500
+
+    LeetCode 77 - solved by backtracking approach
+
+[33mcommit 939e0ec6c0b74137c503b51de880a1d7bd2c7f37[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Aug 24 09:30:26 2025 +0500
+
+    Day 88 - solved combination sum with recursion approach
+
+[33mcommit 0e5e804510000e154570c0cf92a5c9feb2a3aa7a[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Fri Aug 22 22:46:51 2025 +0500
+
+    Day 87 - learned backtracking and solved leetcode 39
+
+[33mcommit e495195d07bd75a1b3845bd679f98eaaf0a0c093[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Thu Aug 21 20:51:46 2025 +0500
+
+    Day 86 - 3 sum closest leetcode 16 solved
+
+[33mcommit b4590dff010cd3fb01436faaaef798985a9d269a[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Aug 20 11:06:51 2025 +0500
+
+    Day 85 - leetcode 1840 solved
+
+[33mcommit 33e5b3fcbb6ab981bc2a0fc3183bc60530a7437b[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Aug 19 14:35:09 2025 +0500
+
+    Day 84 - Solved leetcode 3sum
+
+[33mcommit fd6088ae78a952620dd96f6528c16197f35fe28c[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Aug 18 08:54:41 2025 +0500
+
+    Day 83 - solved leetcode unique paths
+
+[33mcommit d2cf55eaccfdb09b171cbe3101162dcb93e2dddb[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sun Aug 17 23:17:40 2025 +0500
+
+    Day 82 - Solved leetcode 257
+
+[33mcommit 3c16435b2a3e9131d30c65487e057c3290750f60[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Sat Aug 16 15:31:43 2025 +0500
+
+    Day 81 - leetcode recover from preorder traversal solved
+
+[33mcommit 619f514f524b0796488f66cb76b635b3662a5131[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Aug 13 23:52:09 2025 +0500
+
+    Day 80 - leetcode unique sum solved
+
+[33mcommit 9c4d9f4e1ff6b1e32d6e7fb8283a8c6e3bc0f5a8[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Aug 12 14:32:00 2025 +0500
+
+    Day 79 - Leetcode 99 recover binary search tree solved by inorder traversal
+
+[33mcommit ff81ebdbf27a2a18944dc5bb354b295a352410c5[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Mon Aug 11 23:45:14 2025 +0500
+
+    Day 78 - Leetcode validate binary tree solved
+
+[33mcommit 0e8f57907164b5f28e4cca151b19c6d701182749[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Wed Aug 6 14:05:17 2025 +0500
+
+    Day 77 - Leetcode 111 minimun depth of binary tree solved
+
+[33mcommit cdd5ac99a2dd954c5b62f1adda8728abc0f7812a[m
+Author: Muhammad Abu Bakar <abubakarzafar2029@gmail.com>
+Date:   Tue Aug 5 08:09:11 2025 +0500
+
+    Day 76 - Leetcode 112 solved
