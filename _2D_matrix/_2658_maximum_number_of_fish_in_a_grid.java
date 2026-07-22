@@ -1,4 +1,10 @@
-class Solution {
+package _2D_matrix;
+import java.util.*;
+
+class _2658_maximum_number_of_fish_in_a_grid {
+    static void main() {
+
+    }
     public int findMaxFish(int[][] grid) {
         int rows = grid.length;
         int cols = grid[0].length;

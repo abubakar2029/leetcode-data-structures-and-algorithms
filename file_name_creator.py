@@ -20,9 +20,9 @@ def generate_filename(problem_name: str) -> str:
     
     # Build filename
     if num is not None:
-        filename = f"_{num:02d}_{title_snake}.java"
+        filename = f"_{num:02d}_{title_snake}.sql"
     else:
-        filename = f"{title_snake}.java"
+        filename = f"{title_snake}.sql"
     
     pyperclip.copy(filename)
     return filename
